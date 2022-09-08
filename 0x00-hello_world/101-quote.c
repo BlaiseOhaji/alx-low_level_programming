@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <unistd.h>
 /**
  *main - main function
@@ -7,6 +6,6 @@
 int main(void)
 {
 char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-fwrite(text, sizeof(text), 1, stderr);
+write(2, text, sizeof(text));
 return (1);
 }
