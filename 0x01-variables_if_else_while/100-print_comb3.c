@@ -29,7 +29,7 @@ putchar(b);
 b++;
 
 }
-a++
+a++;
 }
 putchar('\n');
 return (0);
