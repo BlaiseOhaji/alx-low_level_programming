@@ -23,7 +23,7 @@ if (c != b && b != a && a < b && b < c)
 {
 putchar(48 + a);
 putchar(48 + b);
-putchar(48 + b);
+putchar(48 + c);
 
 if (a + b + c != 24)
 {
