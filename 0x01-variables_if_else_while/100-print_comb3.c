@@ -21,10 +21,10 @@ putchar(b);
 
 if (a + b != 17)
 {
-putchar(a);
-putchar(b);
+putchar(48 + a);
+putchar(48 + b);
 }
- 
+
 }
 b++;
 
