@@ -23,7 +23,7 @@ while (c < 10)
 d = 0;
 while (d < 10)
 {
-if (!(b > c))
+if (!(a == d && b == c))
 {
 putchar(48 + a);
 putchar(48 + b);
