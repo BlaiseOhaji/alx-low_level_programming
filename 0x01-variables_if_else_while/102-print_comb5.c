@@ -31,7 +31,7 @@ putchar(' ');
 putchar(48 + c);
 putchar(48 + d);
 
-if (a + b + c d != 35)
+if (a + b + c + d != 35)
 {
 putchar(',');
 putchar(' ');
