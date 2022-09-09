@@ -17,8 +17,8 @@ while (b < 10)
 {
 if (a != b && a < b)
 {
-putchar(a);
-putchar(b);
+putchar(48 + a);
+putchar(48 + b);
 
 if (a + b != 17)
 {
