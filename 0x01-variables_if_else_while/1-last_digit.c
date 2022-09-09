@@ -17,7 +17,7 @@ if (enddigit > 5)
 } else if (enddigit < 6 && enddigit != 0)
 {
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, enddigit);
-} else if (enddigit = 0)
+} else if (enddigit == 0)
 {
 	printf("Last digit of %d is %d and is 0\n", n, enddigit);
 }
