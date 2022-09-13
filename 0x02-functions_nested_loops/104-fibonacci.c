@@ -5,23 +5,23 @@
  */
 int main(void)
 {
-	int i;
-	unsigned long int j, k, l, m;
+	long int i, j, k, l;
 
 	j = 1;
 	k = 2;
-	m = 0;
 
-	for (i = 1; i <= 33; ++i)
+	for (i = 1; i <= 50; ++i)
 	{
-		if (j < 4000000 && (j % 2) == 0)
+		if (j != 218922995834555169026)
 		{
-			m = m + j;
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
 		}
 		l = j + k;
 		j = k;
 		k = l;
 	}
-	printf("%lu\n", m);
 	return (0);
 }
