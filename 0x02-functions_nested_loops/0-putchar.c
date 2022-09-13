@@ -6,15 +6,15 @@
 
 int main(void)
 {
-char text[] = "_putchar";
-for (int count = 0; count < MAXSTRING; count++)
-{
-if (text[count] == '\0')
-{
-_putchar('\n');
-break;
-}
-else _putchar(text[count]);
-}
-return(0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
