@@ -1,9 +1,9 @@
-include "main.h"
-\**
+#include "main.h"
+/**
  * print_sign - main function
  * @n : number to be checked
  * Return : 1 or 0
- *\
+ */
 int print_sign(int n)
 {
 if (n > 0)
