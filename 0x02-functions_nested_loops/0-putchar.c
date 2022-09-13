@@ -7,7 +7,14 @@
 int main(void)
 {
 char text[] = "_putchar";
-_putchar(text[]);
+for (int count = 0; count < MAXSTRING; count++)
+{
+if (text[count] == '\0')
+{
 _putchar('\n');
+break;
+}
+else _putchar(text[count]);
+}
 return(0);
 }
