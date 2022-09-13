@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalph - main function
+ * _isalpha - main function
  * @c: contains value to be compared
  * Return: Always 0.
  */
