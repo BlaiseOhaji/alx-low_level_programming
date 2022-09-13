@@ -5,7 +5,7 @@
  */
 int _abs(int n)
 {
-  if (int n < '0')
+  if (n < '0')
   {
     _putchar(-n);
   }
