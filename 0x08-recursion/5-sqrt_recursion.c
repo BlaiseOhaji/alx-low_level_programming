@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *_evaluate - evaluate function sqrt
- *@i: interger
- *@n: interger
+ *@i: integer
+ *@n: integer
  *Return: evaluate sqrt
  */
 int _evaluate(int i, int n)
@@ -31,12 +31,12 @@ int _sqrt_recursion(int n)
 {
 int i = 0;
 
-if (i < 0) /*If n is negative*/
+if (i < 0)
 return (-1);
 
 else
 {
-return (_evaluate(i, n)); /*Recursive call*/
+return (_evaluate(i, n));
 }
 
 }
